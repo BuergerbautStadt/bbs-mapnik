@@ -39,14 +39,14 @@
     <Datasource>
        <Parameter name="dbname"><![CDATA[postgis_berlin]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
-       <Parameter name="file"><![CDATA[/srv/tiles/layers/world_boundaries/ne_110m_admin_0_boundary_lines_land]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/layers/world_boundaries/ne_110m_admin_0_boundary_lines_land]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[land]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -61,7 +61,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>processed_p</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/srv/tiles/layers/world_boundaries/processed_p.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/layers/world_boundaries/processed_p.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -77,7 +77,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>shoreline_300</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/srv/tiles/layers/world_boundaries/shoreline_300.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/layers/world_boundaries/shoreline_300.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -209,7 +209,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[landuse_gen0]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -219,7 +219,7 @@
   ORDER BY way_area DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -236,7 +236,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[landuse_gen1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -246,7 +246,7 @@
   ORDER BY way_area DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -357,7 +357,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[landuse]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -366,7 +366,7 @@
   ORDER BY way_area DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -408,7 +408,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[waterway]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -417,7 +417,7 @@
   WHERE waterway IN ('river', 'canal')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -473,14 +473,14 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, waterway AS type
   FROM planet_osm_line
   WHERE waterway IN ('river', 'canal', 'stream')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -668,14 +668,14 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, waterway AS type
   FROM planet_osm_line
   WHERE waterway IN ('river', 'canal', 'stream', 'ditch', 'drain')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -697,7 +697,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[water_gen0]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -708,7 +708,7 @@
     AND way_area > 10000
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -730,7 +730,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[water_gen1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -741,7 +741,7 @@
     AND way_area > 1000
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -761,7 +761,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[water]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -771,7 +771,7 @@
     OR waterway IN ('basin', 'canal', 'mill_pond', 'pond', 'riverbank', 'stream')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -804,7 +804,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[landuse_overlays]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -814,7 +814,7 @@
   ORDER BY way_area DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -853,7 +853,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[admin]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, admin_level
@@ -862,7 +862,7 @@
     AND admin_level IN ('2','3','4')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -945,7 +945,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, "building" AS type
   FROM planet_osm_polygon
@@ -953,7 +953,7 @@
   ORDER BY ST_YMin(ST_Envelope(way)) DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -1080,7 +1080,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[aeroway]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -1089,7 +1089,7 @@
   WHERE aeroway IN ('apron', 'runway', 'taxiway')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -15469,7 +15469,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[tunnel]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -15495,7 +15495,7 @@
   ORDER BY layer ASC, render ASC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -15535,7 +15535,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[turning_circle_case]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -15544,7 +15544,7 @@
   WHERE highway = 'turning_circle'
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -29865,7 +29865,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[roads_high]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -29885,7 +29885,7 @@
   ORDER BY z_order
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -29978,14 +29978,14 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, highway AS type
   FROM planet_osm_roads
   WHERE highway IN ('motorway', 'trunk', 'primary', 'secondary', 'motorway_link', 'trunk_link')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -30048,14 +30048,14 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, highway AS type, bridge, tunnel
     FROM planet_osm_roads
     WHERE highway IN ('motorway', 'trunk')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -30094,14 +30094,14 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way 
   FROM planet_osm_point
   WHERE highway = 'turning_circle'
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -44482,7 +44482,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[bridge]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -44508,7 +44508,7 @@
   ORDER BY layer ASC, render ASC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 <Style name="area_label" filter-mode="first" >
@@ -46881,7 +46881,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[landuse_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -46905,7 +46905,7 @@
   ORDER BY area DESC
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -49870,7 +49870,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[motorway_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -49880,7 +49880,7 @@
       AND (name IS NOT NULL OR ref IS NOT NULL)
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -50066,7 +50066,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[mainroad_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50076,7 +50076,7 @@
     AND highway IN ('primary', 'secondary', 'tertiary')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -50127,7 +50127,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[minorroad_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[OSMBright]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50137,7 +50137,7 @@
     AND highway IN ('residential', 'unclassified', 'road', 'living_street', 'unknown')
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
 
@@ -50211,7 +50211,7 @@
        <Parameter name="host"><![CDATA[127.0.0.1]]></Parameter>
        <Parameter name="id"><![CDATA[waterway_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       <Parameter name="password"><![CDATA[tiles]]></Parameter>
+       <Parameter name="password"><![CDATA[gis]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50221,7 +50221,7 @@
     AND name IS NOT NULL
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
-       <Parameter name="user"><![CDATA[tiles]]></Parameter>
+       <Parameter name="user"><![CDATA[gis]]></Parameter>
        <Parameter name="extent_cache"><![CDATA[auto]]></Parameter>
     </Datasource>
   </Layer>
