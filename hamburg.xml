@@ -40,9 +40,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="file"><![CDATA[/srv/gis/layers/world_boundaries/ne_110m_admin_0_boundary_lines_land]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[land]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -206,10 +206,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[landuse_gen0]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -233,10 +233,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[landuse_gen1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -354,10 +354,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[landuse]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -405,10 +405,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[waterway]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -471,9 +471,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, waterway AS type
   FROM planet_osm_line
@@ -666,9 +666,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, waterway AS type
   FROM planet_osm_line
@@ -694,10 +694,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[water_gen0]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -727,10 +727,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[water_gen1]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -758,10 +758,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[water]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -801,10 +801,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[landuse_overlays]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -850,10 +850,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[admin]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-imposm]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, admin_level
@@ -943,9 +943,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, "building" AS type
   FROM planet_osm_polygon
@@ -1077,10 +1077,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[aeroway]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -15466,10 +15466,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[tunnel]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -15532,15 +15532,15 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[turning_circle_case]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
-       <Parameter name="table"><![CDATA[( SELECT way 
-  FROM planet_osm_point 
+       <Parameter name="table"><![CDATA[( SELECT way
+  FROM planet_osm_point
   WHERE highway = 'turning_circle'
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -29862,10 +29862,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[roads_high]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -29976,9 +29976,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, highway AS type
   FROM planet_osm_roads
@@ -30046,9 +30046,9 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, highway AS type, bridge, tunnel
     FROM planet_osm_roads
@@ -30092,11 +30092,11 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
-       <Parameter name="table"><![CDATA[( SELECT way 
+       <Parameter name="table"><![CDATA[( SELECT way
   FROM planet_osm_point
   WHERE highway = 'turning_circle'
 ) AS data]]></Parameter>
@@ -44479,10 +44479,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[bridge]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[osm-bright-master]]></Parameter>
        <Parameter name="srs"><![CDATA[null]]></Parameter>
@@ -46871,6 +46871,7 @@
     <TextSymbolizer halo-radius="1" fontset-name="fontset-0" size="11" wrap-width="30" fill="#999999" halo-fill="#fdfdfd" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
 </Style>
+
 <Layer name="area_label"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>area_label</StyleName>
@@ -46878,10 +46879,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[landuse_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -46890,6 +46891,7 @@
     ST_PointOnSurface(way) AS way
   FROM planet_osm_polygon
   WHERE name IS NOT NULL
+    AND "shop" IS NULL
     AND way && !bbox!
     AND ST_IsValid(way)
 
@@ -46900,6 +46902,7 @@
   FROM planet_osm_polygon
   WHERE name IS NOT NULL
     AND building NOT IN ('', 'no', '0', 'false')
+    AND "shop" IS NULL
     AND way && !bbox!
     AND ST_IsValid(way)
   ORDER BY area DESC
@@ -46908,6 +46911,7 @@
        <Parameter name="user"><![CDATA[gis]]></Parameter>
     </Datasource>
   </Layer>
+
 
 <Style name="motorway_label" filter-mode="first" >
   <Rule>
@@ -49867,10 +49871,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[motorway_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50063,10 +50067,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[mainroad_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50124,10 +50128,10 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[minorroad_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[OSMBright]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -50208,16 +50212,16 @@
        <Parameter name="dbname"><![CDATA[postgis_hamburg]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
-       
+
        <Parameter name="id"><![CDATA[waterway_label]]></Parameter>
        <Parameter name="key_field"><![CDATA[]]></Parameter>
-       
+
        <Parameter name="port"><![CDATA[5432]]></Parameter>
        <Parameter name="project"><![CDATA[foss4g-2011]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
        <Parameter name="table"><![CDATA[( SELECT way, waterway AS type, name
   FROM planet_osm_line
-  WHERE waterway IN ('canal', 'river', 'stream') 
+  WHERE waterway IN ('canal', 'river', 'stream')
     AND name IS NOT NULL
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
