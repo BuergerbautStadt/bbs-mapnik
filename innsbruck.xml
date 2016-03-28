@@ -39,7 +39,7 @@
     <Datasource>
        <Parameter name="dbname"><![CDATA[postgis_innsbruck]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34 -20037508.34 20037508.34 20037508.34]]></Parameter>
-       <Parameter name="file"><![CDATA[/srv/gis/layers/ne_110m_admin_0_boundary_lines_land/ne_110m_admin_0_boundary_lines_land]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/shp/ne_110m_admin_0_boundary_lines_land/ne_110m_admin_0_boundary_lines_land]]></Parameter>
        
        <Parameter name="id"><![CDATA[land]]></Parameter>
        
@@ -61,7 +61,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>processed_p</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/srv/gis/layers/processed_p/processed_p.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/shp/processed_p/processed_p.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -77,7 +77,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>shoreline_300</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/srv/gis/layers/shoreline/shoreline_300.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/srv/gis/shp/shoreline/shoreline_300.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
